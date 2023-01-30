@@ -18,9 +18,9 @@ La variable numero se asigna el valor numérico 5, la variable nombre se asigna 
 Una vez que se ha asignado un valor a una variable, se puede utilizar el nombre de la variable en cualquier parte del código para hacer referencia a ese valor. Por ejemplo, se puede utilizar una variable en una operación matemática o en una función.
 
 #### Diferencias entre `const`, `var` y `let`
-En el ejemplo anterior utilizamos `const` para asignar la variable
+En el siguiente ejemplo utilizamos `const` para asignar la variable
 ```javascript
-const nombre = valor;// Valor a ser asignado
+const nombre = 'valor';// Valor a ser asignado
 ```
 Sin embargo, para declarar variables podemos utilizar las mencionadas anteriormente o incluso, solo asignar la variable, ¿cual es la diferencia?, ¿Cual deberia usar?.
 ### CONST
@@ -41,6 +41,31 @@ let, por otro lado, es utilizado para declarar una variable cuyo valor puede ser
 ### VAR
 Por último, var es una forma antigua de declarar variables en JavaScript. A diferencia de const y let, var no tiene restricciones de alcance, lo que significa que una variable declarada con var puede ser accedida desde cualquier parte del código. Sin embargo, en la mayoría de los casos se recomienda utilizar const y let en lugar de var.
 
+### ¿Hay algun caso en el que se recomiende `var` ?
+Sí, hay algunos casos en los que se recomienda el uso de var en JavaScript:
+
+Declaración de variables dentro de una función que requieren ser compartidas entre diferentes partes de la función.
+```javascript
+function exampleVar() {
+  if (true) {
+    var sharedVar = "Variable compartida";
+  }
+  console.log(sharedVar);
+}
+exampleVar(); // "Variable compartida"
+```
+
+Cuando se desea crear una variable global en un archivo que es accesible desde múltiples funciones.
+```javascript
+var globalVar = "Variable global";
+
+function accessGlobalVar() {
+  console.log(globalVar);
+}
+
+accessGlobalVar(); // "Variable global"
+```
+Sin embargo, en la mayoría de los casos, se recomienda el uso de let y const en lugar de var, ya que estos ofrecen un mejor control del alcance de las variables y son más fáciles de entender y mantener.
 ### Conclusión
 En resumen, se recomienda utilizar const cuando se sabe que el valor de una variable no va a cambiar, y let cuando se espera que el valor de una variable cambie a lo largo del código.
 
