@@ -26,12 +26,12 @@ let product = num1 * num2;
 console.log("Multiplicación: " + product);
 
 // División
-let quotient = num1 / num2;
-console.log("División: " + quotient);
+let division = num1 / num2;
+console.log("División: " + division);
 
 // Módulo
-let remainder = num1 % num2;
-console.log("Módulo: " + remainder);
+let resto = num1 % num2;
+console.log("Módulo: " + resto);
 ```
 
 #### Uso práctico de Módulo
