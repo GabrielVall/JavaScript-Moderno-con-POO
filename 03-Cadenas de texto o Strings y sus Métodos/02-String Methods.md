@@ -55,3 +55,27 @@ console.log(name.trim());  // Salida: "Juan Robles"
 En este ejemplo, la cadena name contiene espacios en blanco al principio y al final. El método `.trim()` elimina los espacios en blanco al principio y al final de la cadena. En este caso, la función devuelve la cadena `"Juan Robles"`.
 
 El método `.trim()` es útil para limpiar datos de entrada y asegurarse de que no haya espacios en blanco no deseados en una cadena.
+Vease `trimStart()` y `trimEnd()` para eliminar el inicio o final respectivamente.
+
+#### .slice(): te permite cortar una parte de una matriz o una cadena de texto y crear una nueva matriz o cadena de texto con esa selección.
+
+```javascript
+let mensaje = "Hola, mundo!";
+let saludo = mensaje.slice(0, 4);
+
+console.log(saludo); // Imprime: "Hola"
+```
+
+#### "charAt" es un método en JavaScript que se utiliza para obtener un carácter específico de una cadena de texto.
+
+```javascript
+let mensaje = "Hola, mundo!";
+let primerCaracter = mensaje.charAt(0);
+
+console.log(primerCaracter); // Imprime: "H"
+```
+
+### Conclusión
+Hay una gran manera de trabajar con strings y ya vimos las más comunes, aquí dejo una lista con distintos métodos extra que tal vez puedas utilizar.
+
+[JavaScript String Methods](https://www.w3schools.com/js/js_string_methods.asp)
