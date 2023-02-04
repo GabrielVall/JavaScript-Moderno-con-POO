@@ -1,3 +1,4 @@
+### Nota: Este repositorio sigue en construcción, sin embargo ya son accesibles varias lecciones
 # JavaScript Moderno - Resumen
 Notas básicas para el curso de JavaScript Moderno
 #### Básico para pruebas
