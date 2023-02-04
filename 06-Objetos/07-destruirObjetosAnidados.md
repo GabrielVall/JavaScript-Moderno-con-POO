@@ -17,17 +17,13 @@ let auto = {
   ]
 };
 
-delete auto.detalles.color;
+delete auto.detalles;
 
 console.log(auto);
 // Salida:
 // {
 //   marca: 'Toyota',
 //   modelo: 'Camry',
-//   detalles: {
-//     año: 2020,
-//     transmision: 'automática'
-//   },
 //   caracteristicas: [
 //     'airbags',
 //     'cámara de retroceso',
