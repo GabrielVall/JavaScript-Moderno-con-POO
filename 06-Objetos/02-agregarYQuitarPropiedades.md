@@ -1,6 +1,15 @@
 # Agregar y quitar propiedades a un objeto
 En JavaScript, los objetos son una estructura de datos dinámica que te permiten almacenar y acceder a diferentes valores en una sola entidad. Puedes agregar o quitar propiedades en cualquier momento, lo que te da una gran flexibilidad y control sobre tus datos.
 
+Para crear un objeto:
+
+```javascript
+var obj = {
+  key1: "value1",
+  key2: "value2"
+};
+```
+
 Para agregar una nueva propiedad a un objeto, puedes simplemente asignar un valor a una nueva clave:
 
 ```javascript
