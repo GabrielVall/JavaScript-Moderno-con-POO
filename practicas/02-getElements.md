@@ -5,7 +5,7 @@ En esta práctica, aprenderás a seleccionar un conjunto de elementos HTML utili
 * 1-. Crea un archivo HTML y agrega el siguiente código:
 ```html
 <!DOCTYPE html>
-<♠html>
+<html>
   <head>
     <title>Práctica con getElements</title>
   </head>
@@ -16,7 +16,7 @@ En esta práctica, aprenderás a seleccionar un conjunto de elementos HTML utili
       <li class="item">Item 3</li>
     </ul>
   </body>
-</♠html>
+</html>
 ```
 * 3-. Abre el archivo HTML en un navegador web y verifica que los elementos de la lista se muestran correctamente.
 * 4-. Abre el archivo HTML en un editor de código.
