@@ -18,13 +18,13 @@ En esta práctica, aprenderás a seleccionar un conjunto de elementos HTML utili
   </body>
 </html>
 ```
-* 3-. Abre el archivo HTML en un navegador web y verifica que los elementos de la lista se muestran correctamente.
-* 4-. Abre el archivo HTML en un editor de código.
-* 5-. Crea un archivo JavaScript vacío y vincúlalo al archivo HTML utilizando la etiqueta script.
-* 6-. En el archivo JavaScript, utiliza getElementsByClassName para seleccionar todos los elementos con la clase "item".
-* 7-. Utiliza un bucle for para iterar sobre los elementos seleccionados.
-* 8-. Dentro del bucle, cambia el contenido de cada elemento utilizando la propiedad textContent.
-* 9-. Guarda los archivos HTML y JavaScript.
+* 2-. Abre el archivo HTML en un navegador web y verifica que los elementos de la lista se muestran correctamente.
+* 3-. Abre el archivo HTML en un editor de código.
+* 4-. Crea un archivo JavaScript vacío y vincúlalo al archivo HTML utilizando la etiqueta script.
+* 5-. En el archivo JavaScript, utiliza getElementsByClassName para seleccionar todos los elementos con la clase "item".
+* 6-. Utiliza un bucle for para iterar sobre los elementos seleccionados.
+* 7-. Dentro del bucle, cambia el contenido de cada elemento utilizando la propiedad textContent.
+* 8-. Guarda los archivos HTML y JavaScript.
 Abre el archivo HTML en un navegador web y verifica que los elementos de la lista se han actualizado con el nuevo contenido.
 
 El resultado final debera verse de este modo:
