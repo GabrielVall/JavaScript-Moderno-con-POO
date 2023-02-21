@@ -23,8 +23,6 @@ El objetivo de esta práctica es aprender a utilizar querySelectorAll para selec
   </body>
 </html>
 ```
-
-* 2-. Agrega un atributo class a cada elemento de lista de "numero-1" a "numero-5", respectivamente.
 * 3-. Abre el archivo HTML en un navegador web y verifica que los elementos de la lista se muestran correctamente.
 * 4-. Abre el archivo HTML en un editor de código.
 Crea un archivo JavaScript vacío y vincúlalo al archivo HTML utilizando la etiqueta script.
